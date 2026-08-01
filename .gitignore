@@ -1,0 +1,6 @@
+*.txt
+*.pyc
+__pycache__/
+SCRIPTS-README.md
+venv
+
