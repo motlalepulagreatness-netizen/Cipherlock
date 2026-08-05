@@ -1,5 +1,6 @@
 import sys
 import stdio
+from baseline import Base
 
 
 def validate_input(arg):
@@ -26,6 +27,13 @@ def validate_input(arg):
         if game_type == 0 and ai_type == 3:
             stdio.writeln('AI type 3 can only be played for game type 1.')
             quit()
+
+        game_setup()
+
+
+def game_setup():
+    center = Base()
+    center.run()
 
 
 def main():
